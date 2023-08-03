@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* PRINCIPAL */
+.principal{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.quadrados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quadrado{
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+    background-color: #effffe;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.quadrado:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 15px 1px;
+    
+}
+
+.imagem{
+    height: 125px;
+    width: 150px;
+}
+
+.calc{
+    height: 100px;
+    background-color: rgb(78, 128, 128);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.frase{
+    font-family: monospace;
+    font-size: 35px;
+}
+
+button{
+    background: none;
+}
+
+.meio{
+    height: 200px;
+}
+
+.txt{
+    padding: 60px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.real{
+   font-size: 20px;
+
+   display: inline-block;
+}
+
+.desc{
+    font-size: 14px;
+    margin-right: 50px;
+    
+}
+
+body{
+    background-color: rgb(163, 201, 204);
+}
+
+.linha{
+    border: none;
+    height: 2px;
+    background-color: rgb(33, 33, 33);
+}
+
+.verde{
+    height: 100px;
+    background-color: rgb(78, 128, 128);
+}
+
+h4{
+    text-align: center;
+    justify-content: center;
+    color: red;
+}
+
+@media screen and (min-width: 401px) and (max-width: 450px) {
+   
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    /* PRINCIPAL */
+    .principal{
+        height: 401px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .quadrados{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 415px;
+        
+    }
+    
+    .quadrado{
+        border: 2px solid black;
+        background-color: #effffe;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+        margin: 15px;
+    }
+    
+    .quadrado:hover{
+        transform: scale(1.1);
+        box-shadow: 3px 3px 15px 1px;
+        
+    }
+    
+    .imagem{
+        height: 76px;
+        width: 76px;
+    }
+    
+    .calc{
+        height: 33px;
+        background-color: rgb(78, 128, 128);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .frase{
+        font-family: monospace;
+        font-size: 24px;
+    }
+    
+    button{
+        background: none;
+    }
+    
+    .meio{
+        height: 150px;
+        margin-left: -40px;
+        margin-right: -40px;
+        margin-top: -30px;
+    }
+    
+    .txt{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .real{
+       font-size: 18px;
+       display: inline-block;
+    }
+    
+    .desc{
+        font-size: 10px;
+        margin-right: 50px;
+        
+    }
+    
+    body{
+        background-color: rgb(163, 201, 204);
+    }
+    
+    .linha{
+        border: none;
+        height: 2px;
+        background-color: rgb(33, 33, 33);
+        margin-top: 100px;
+    }
+    
+    .verde{
+        height: 50px;
+        background-color: rgb(78, 128, 128);
+        margin-top: 425px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    /* PRINCIPAL */
+    .principal{
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .quadrados{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .quadrado{
+        padding: 20px;
+        margin: 30px;
+        border: 2px solid black;
+        background-color: #effffe;
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+        padding: 10px;
+        margin
+    }
+    
+    .quadrado:hover{
+        transform: scale(1.1);
+        box-shadow: 3px 3px 15px 1px;
+        
+    }
+    
+    .imagem{
+        height: 125px;
+        width: 150px;
+    }
+    
+    .calc{
+        height: 100px;
+        background-color: rgb(78, 128, 128);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .frase{
+        font-family: monospace;
+        font-size: 35px;
+    }
+    
+    button{
+        background: none;
+    }
+    
+    .meio{
+        height: 200px;
+    }
+    
+    .txt{
+        padding: 60px;
+        margin-left: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .real{
+       font-size: 20px;
+    
+       display: inline-block;
+    }
+    
+    .desc{
+        font-size: 14px;
+        margin-right: 50px;
+        
+    }
+    
+    body{
+        background-color: rgb(163, 201, 204);
+    }
+    
+    .linha{
+        border: none;
+        height: 2px;
+        background-color: rgb(33, 33, 33);
+    }
+    
+    .verde{
+        height: 75px;
+        background-color: rgb(78, 128, 128);
+        margin-top: 75px;
+    }
+
+}
